@@ -19,7 +19,7 @@ header img{
 .content{
 	max-width: 900px;
 	margin: 0 auto;
-	padding:0 20px;
+	padding:20px 20px;
 }
 img.big-image{
 	max-width: 100%
@@ -38,10 +38,13 @@ a{
 	color:red;
 	text-decoration: none;
 }
+footer a{
+	color: white;
+}
 footer{
 	margin-top: 20px;
 	padding:40px 20px;
-	background-color: #E6E6E6;
+	background-color: #CC0000;
 }
 footer ul{
 	text-align: center;
@@ -56,7 +59,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: #CC0000;
   overflow: auto;
 }
 
@@ -75,7 +78,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .navbar a.active {
-  background-color: #4CAF50;
+  background-color: #00004C;
 }
 
 @media screen and (max-width: 500px) {
@@ -97,6 +100,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   display: block;
   width: 100%;
   height: auto;
+  margin-top: 20px;
 }
 
 .overlay {
@@ -109,7 +113,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:#ff9999;
+  background-color:#00004C;
 }
 
 .container:hover .overlay {
@@ -125,6 +129,23 @@ body {font-family: Arial, Helvetica, sans-serif;}
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+/* images side by side */
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*ends here*/
 /*text hovering on image style ends here*/
 /*		<img src="img/profile.jpg">
 		<h1>Wreck-It Ralph</h1>

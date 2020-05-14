@@ -5,6 +5,7 @@ html, body{
 }
 header{
 	background-color: #00004C;
+	background-size: 200px;
 	background-image: url('../img/pixel-image-100.jpg'); ;
 	background-repeat: repeat;
 	padding: 40px;
@@ -21,13 +22,13 @@ h2{
 header img{
 	border-radius: 174px;
 	width: 300px;
-	border: 24px solid #CC0000;
+	border: 24px solid white;
 	box-shadow: 0 10px 20px black;
 }
 .content{
 	max-width: 900px;
 	margin: 0 auto;
-	padding:0 20px;
+	padding:30px 20px;
 	text-align: center;
 }
 img.big-image{
@@ -87,7 +88,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .navbar a.active {
-  background-color: #4CAF50;
+  background-color: red;
 }
 
 @media screen and (max-width: 500px) {
@@ -138,3 +139,20 @@ body {font-family: Arial, Helvetica, sans-serif;}
   -ms-transform: translate(-50%, -50%);
 }
 /*text hovering on image style ends here*/
+/* images side by side */
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*ends here*/
