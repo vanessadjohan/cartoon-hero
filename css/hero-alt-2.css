@@ -70,6 +70,44 @@ footer ul li{
 	display: inline;
 	margin:0 5px;
 }
+/*Top nav bar*/
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ff6666;
+}
+
+.navbar a.active {
+  background-color: #ff4d4d;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/*ends here*/
+/*for hovering text on image*/
 .container {
   position: relative;
   width: 100%;
@@ -107,3 +145,4 @@ footer ul li{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+/*text hovering on image style ends here*/
