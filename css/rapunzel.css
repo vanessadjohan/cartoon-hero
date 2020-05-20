@@ -1,36 +1,30 @@
 html, body{
-	font-family: Arial, sans-serif;
+	font-family:garamond, serif;
 	margin: 0;
-	font-size:20px;
-	color: white;
-	background-color: #D64F4F;
 }
 header{
-	background-color:#AB5252;
+	background-color: #00004C;
+  background-image: url('../img/header.png');
 	padding: 40px;
 	text-align: center;
+  background-size: 100%;
 }
 h1{
-	font-size: 90px;
-	color: #EBA7A7
-	margin-bottom:0;
+	font-size: 100px;
+	color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 header img{
+	border-radius: 174px;
 	width: 300px;
-	border: 20px solid #ff4d4d;
 }
 .content{
 	max-width: 900px;
 	margin: 0 auto;
-	padding:20 20px;
-	text-align: center;
+	padding:20px 20px;
 }
 img.big-image{
 	max-width: 100%
-}
-p{
-	margin: 20px auto;
-	max-width: 600px;
 }
 p.caption{
 	font-size: 16px;
@@ -42,27 +36,17 @@ ul{
 	padding:0;
 	margin: 0;
 }
-ol{
-	list-style: none;
-  padding:0;
-}
-li{
-	background-color: #F27979;
-	margin: 5px 0;
-	padding:5px;
-	border-radius: 10px;
-}
 a{
-	color: #7385EB;
+	color:#800080;
 	text-decoration: none;
 }
-a:hover{
-	background-color: #2A315E;
+footer a{
+	color: white;
 }
 footer{
 	margin-top: 20px;
 	padding:40px 20px;
-	background-color: #AB5252;
+	background-color: #CC0000;
 }
 footer ul{
 	text-align: center;
@@ -71,13 +55,18 @@ footer ul li{
 	display: inline;
 	margin:0 5px;
 }
+h2{
+color:#800080;
+  background-color: #ffff4d;
+  text-align:center;
+}
 /*Top nav bar*/
 * {box-sizing: border-box}
 body {font-family: Arial, Helvetica, sans-serif;}
 
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: #800080;
   overflow: auto;
 }
 
@@ -92,11 +81,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .navbar a:hover {
-  background-color: #ff6666;
+  background-color: #000;
 }
 
 .navbar a.active {
-  background-color: #ff4d4d;
+  background-color: #ffff4d;
 }
 
 @media screen and (max-width: 500px) {
@@ -118,6 +107,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   display: block;
   width: 100%;
   height: auto;
+  margin-top: 20px;
 }
 
 .overlay {
@@ -130,7 +120,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:#ff9999;
+  background-color:#800080;
 }
 
 .container:hover .overlay {
@@ -146,6 +136,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+/*hovering text over image ends here*/
+
 /* images side by side */
 * {
   box-sizing: border-box;
@@ -163,5 +155,3 @@ body {font-family: Arial, Helvetica, sans-serif;}
   display: table;
 }
 /*ends here*/
-/*text hovering on image style ends here*/
-
