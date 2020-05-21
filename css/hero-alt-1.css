@@ -6,7 +6,7 @@ html, body{
 header{
 	background-color: #00004C;
 	background-size: 200px;
-	background-image: url('../img/pixel-image-100.jpg'); ;
+	background-image: url('../img/pixel-image-100.jpg'); 
 	background-repeat: repeat;
 	padding: 40px;
 	text-align: center;

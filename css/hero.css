@@ -129,6 +129,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+/*text hovering on image style ends here*/
+
 /* images side by side */
 * {
   box-sizing: border-box;
@@ -145,8 +147,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   clear: both;
   display: table;
 }
-/*ends here*/
-/*text hovering on image style ends here*/
+/*image side by side ends here*/
+
 /*		<img src="img/profile.jpg">
 		<h1>Wreck-It Ralph</h1>
 	</header>*/
